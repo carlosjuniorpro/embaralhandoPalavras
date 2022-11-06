@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  background: lightyellow;
+  background-image: url(img/palavra_embaralhada.jpg);
+  /*comandos para centralizar o conteúdo tanto na horizontal como na vertical */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* É necessário usar os 3 comandos*/
+  
+}
+
+
+#palavra_embaralhada{
+  color: blue;
+  font-size: 25px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+
+#resposta {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+#conteudo_pagina{
+    width: 450px;
+    height: 500px;
+    background-color: lightyellow;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+
+.conjunto{
+  border-radius: 8px;
+  padding: 10px;
+}
